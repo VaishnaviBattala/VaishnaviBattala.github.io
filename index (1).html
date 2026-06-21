@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B. Vaishnavi — Computer Science Engineering Student</title>
+<meta name="description" content="Portfolio of B. Vaishnavi, Computer Science Engineering student specializing in software development and AI/ML.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Progress bar ===== -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ===== Nav ===== -->
+<header class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">B. Vaishnavi</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#connect" class="nav-link nav-link-cta">Connect</a></li>
+      <li class="nav-theme-item">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-inner hero-inner-split">
+      <div class="hero-copy">
+        <p class="hero-eyebrow reveal"><span class="dot-live"></span>Open to opportunities</p>
+
+        <h1 class="hero-name reveal">
+          <span class="hero-name-line">B. Vaishnavi</span>
+        </h1>
+
+        <div class="hero-role reveal">
+          <span class="hero-typed" id="heroTyped"></span><span class="hero-cursor" aria-hidden="true">|</span>
+        </div>
+
+        <p class="hero-intro reveal">
+          I'm a Computer Science Engineering student passionate about software
+          development, artificial intelligence, and problem-solving. I enjoy
+          building practical projects, learning new technologies, and continuously
+          sharpening my technical skills.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">
+            View Projects <span class="btn-arrow">→</span>
+          </a>
+          <a href="#connect" class="btn btn-ghost">Get In Touch</a>
+        </div>
+
+        <div class="hero-stack reveal">
+          <span class="hero-stack-label">Core focus</span>
+          <div class="hero-stack-tags">
+            <span>Software Dev</span>
+            <span>AI / ML</span>
+            <span>DSA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal" aria-hidden="false">
+        <div class="hero-photo-frame">
+          <img src="vaishnavi.jpeg" alt="Portrait of B. Vaishnavi" class="hero-photo-img" width="1200" height="1200">
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span class="scroll-cue-line"></span>
+      <span class="scroll-cue-text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">About</p>
+      <h2 class="section-title reveal">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a third-year Computer Science Engineering student who enjoys turning
+            ideas into working software. My curiosity sits at the intersection of
+            <strong>building things</strong> and <strong>understanding how intelligent
+            systems think</strong> — which is what draws me toward AI and machine learning
+            alongside core software development.
+          </p>
+          <p>
+            I like the process as much as the outcome: breaking a problem down,
+            researching the right approach, and iterating until something actually
+            works well. Outside of coursework, I spend time on personal projects that
+            push me to learn tools and concepts I haven't used before.
+          </p>
+        </div>
+
+        <div class="about-interests">
+          <div class="interest-card reveal">
+            <h3>Software Development</h3>
+            <p>Designing and building functional, well-structured applications.</p>
+          </div>
+          <div class="interest-card reveal">
+            <h3>Artificial Intelligence</h3>
+            <p>Exploring how systems reason, decide, and generate responses.</p>
+          </div>
+          <div class="interest-card reveal">
+            <h3>Machine Learning</h3>
+            <p>Studying models that learn patterns from data to make predictions.</p>
+          </div>
+          <div class="interest-card reveal">
+            <h3>Problem Solving</h3>
+            <p>Breaking down complex problems into clear, logical solutions.</p>
+          </div>
+          <div class="interest-card reveal">
+            <h3>Continuous Learning</h3>
+            <p>Always picking up new tools, languages, and ways of thinking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-tint" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Skills</p>
+      <h2 class="section-title reveal">Skills</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title">Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML / CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title">CS Fundamentals</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures &amp; Algorithms</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Operating Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title">AI / ML</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag-accent">Natural Language Processing</span>
+            <span class="skill-tag skill-tag-accent">Probabilistic Models</span>
+            <span class="skill-tag skill-tag-accent">Search Algorithms</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title">Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Things I've Built</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <span class="status-pill status-shipped">
+              <span class="status-dot"></span> Completed
+            </span>
+          </div>
+          <h3 class="project-title">AI Hallucination &amp; Bias Awareness Checker</h3>
+          <p class="project-desc">
+            A system built to identify and analyze hallucinations and bias in
+            AI-generated responses, aimed at improving the reliability and
+            fairness of AI outputs.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>NLP</span>
+            <span>AI Evaluation</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <span class="status-pill status-progress">
+              <span class="status-dot"></span> In Progress
+            </span>
+          </div>
+          <h3 class="project-title">Attendance Management System</h3>
+          <p class="project-desc">
+            Currently developing a system for efficient attendance tracking,
+            record management, and reporting — built to streamline a process
+            that's usually manual and error-prone.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>JavaScript</span>
+            <span>CSS</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="side-project reveal">
+        <span class="side-project-label">Also on GitHub —</span>
+        <span class="side-project-name">Tic-Tac-Toe</span>
+        <span class="side-project-desc">a small practice project for sharpening logic and game-state handling.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-tint" id="education">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Education</p>
+      <h2 class="section-title reveal">Education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+            <span class="timeline-line"></span>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Current</span>
+            <h3>Bachelor of Engineering — Computer Science Engineering</h3>
+            <p class="timeline-org">ACE Engineering College</p>
+            <p class="timeline-desc">Third-year, building a strong foundation across software development, core CS theory, and applied AI/ML.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-tag timeline-tag-muted">Earlier</span>
+            <h3>Intermediate Education</h3>
+            <p class="timeline-org">Narayana Junior College</p>
+            <p class="timeline-desc">Built the academic foundation that led into engineering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONNECT ===== -->
+  <section class="section connect" id="connect">
+    <div class="section-inner">
+      <p class="section-eyebrow reveal">Connect</p>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="connect-sub reveal">
+        I'm always open to chatting about projects, internships, or interesting
+        problems to solve. Reach out — I'll get back to you.
+      </p>
+
+      <div class="connect-grid">
+        <a href="mailto:battalavaishnavi@gmail.com" class="connect-card reveal">
+          <span class="connect-label">Email</span>
+          <span class="connect-value">battalavaishnavi@gmail.com</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/vaishnavi-b-261152327" target="_blank" rel="noopener noreferrer" class="connect-card reveal">
+          <span class="connect-label">LinkedIn</span>
+          <span class="connect-value">vaishnavi-b-261152327</span>
+        </a>
+
+        <a href="https://github.com/VaishnaviBattala" target="_blank" rel="noopener noreferrer" class="connect-card reveal">
+          <span class="connect-label">GitHub</span>
+          <span class="connect-value">VaishnaviBattala</span>
+        </a>
+
+        <a href="tel:+919010190969" class="connect-card reveal">
+          <span class="connect-label">Phone</span>
+          <span class="connect-value">+91 90101 90969</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by B. Vaishnavi · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
