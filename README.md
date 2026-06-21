@@ -1,2 +1,0 @@
-# VaishnaviBattala.github.io
-Portfolio
